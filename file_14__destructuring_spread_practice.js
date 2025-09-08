@@ -138,10 +138,13 @@ console.log('Rest of Fruits:', restOfFruits);
 // Example: greetPerson({name: "Tom", age: 25}) returns "Hello Tom, you are 25 years old"
 
 // Write your function here:
-
+function greetPerson({name, age})
+{
+    return `Hello ${name}, you are ${age} years old.`;
+}
 
 // Test your function (uncomment to test):
-// console.log(greetPerson({name: "Alice", age: 30}));
+console.log(greetPerson({name: "Alice", age: 30}));
 
 
 // Notes for beginners:
