@@ -133,7 +133,12 @@ console.log('Cherry is at position:', cherryPosition);
 // Then use THREE different array methods on it and log the results
 
 // Write your bonus code here:
-
+let colors = ['blue', 'green', 'red', 'orange'];
+console.log(colors.length);
+colors.push('teal');
+console.log(colors);
+colors.shift();
+console.log(colors);
 
 // Notes for beginners:
 // - push() adds to the end, pop() removes from the end
