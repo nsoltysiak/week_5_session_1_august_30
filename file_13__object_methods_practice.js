@@ -91,10 +91,10 @@ console.log('Car has price property:', hasPrice);
 // TODO: Use Object.entries() to get key-value pairs from the student object
 // Store the result in a variable called 'studentEntries'
 // Write your code here:
-
+const studentEntries = Object.entries(student);
 
 // Test (uncomment to see results):
-// console.log('Student entries:', studentEntries);
+console.log('Student entries:', studentEntries);
 
 
 // ============================================
