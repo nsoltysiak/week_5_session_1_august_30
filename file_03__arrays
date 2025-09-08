@@ -1,0 +1,19 @@
+const numbers = [2, 4, 6, 8];
+const strings = ["abc", "def", "ghi"];
+const fruits = ["banana", "kiwi", "cherry", "apple", "strawberry"];
+
+console.log(numbers);
+
+// Indexing
+console.log(numbers[0]);
+console.log(numbers[2]);
+
+// Iterate over the array
+// Length = total items in the array
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+for (const number of numbers) {
+  console.log(number);
+}
